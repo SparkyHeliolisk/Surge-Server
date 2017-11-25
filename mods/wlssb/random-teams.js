@@ -166,6 +166,21 @@ class RandomSeasonalRegStaffTeams extends RandomTeams {
 				nature: 'Adamant',
 			},
 			// Global Moderators:
+			'@A Helpful Rayquaza': {
+				species: 'Rayquaza-Mega',
+				ability: 'Draco Stream',
+				shiny: true,
+				item: 'Lum Berry',
+				gender: 'M',
+				moves: ['Dragon Ascent', 'Dragon Dance', 'Extreme Speed',
+						 ],
+				signatureMove: 'Rayquaza Roar',
+				evs: {
+					atk: 252,
+					spe: 252,
+				},
+				nature: 'Modest',
+			},
 			'@BDH93': {
 				species: 'Dunsparce',
 				ability: 'Serene Grace',
