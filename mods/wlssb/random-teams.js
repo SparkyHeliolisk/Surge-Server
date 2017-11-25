@@ -8,15 +8,15 @@ class RandomSeasonalRegStaffTeams extends RandomTeams {
 		let variant = this.random(2);
 		let sets = {
 			// Admins.
-			'~HoeenHero': {
-				species: 'Ludicolo',
-				ability: 'Programmer\'s Domain',
+			'~ SnorlaxTheRain': {
+				species: 'Snorlax',
+				ability: 'Thick Fat,
 				item: 'Leftovers',
 				gender: 'M',
 				moves: [
-					['', ''][variant], '', '',
+					['Earthquake', 'Wild Charge', 'Crunch',
 				],
-				signatureMove: '',
+				signatureMove: 'Rain Dance Slam',
 				evs: {
 					spa: ,
 					spe: ,
