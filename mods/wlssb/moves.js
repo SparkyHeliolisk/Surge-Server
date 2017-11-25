@@ -1,6 +1,29 @@
 "use strict";
 
 exports.BattleMovedex = {
+	// A Helpful Rayquaza
+    rayquazaroar: {
+        category: "Special",
+        accuracy: true,
+        basePower: 130,
+        id: "rayquazaroar",
+        isNonstandard: true,
+        name: "Rayquaza Roar",
+        pp: 5,
+        noPPBoosts: true,
+        priority: 5,
+        selfdestruct: "no",
+        onPrepareHit: function (target, source, move) {
+            this.attrLastMove('[still]');
+            this.add('-anim', source, "Roar", target);
+        },
+        desc: "No Effect.",
+        onHit: function (target, source, move) {
+            this.add('c|@A Helpful Rayquaza|Take the Roar of Dragon!');
+        },
+        target: "normal",
+        type: "Dragon",
+	},
 	// HoeenHero
 	scripting: {
 		category: "Status",
