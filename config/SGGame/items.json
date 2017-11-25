@@ -1156,6 +1156,150 @@
             "triggerEvo": true
         }
     },
+    "firium Z": {
+     "id": "firium Z",
+     "name": "Firium Z",
+     "slot": "items",
+     "use": {
+          "battleOnly": true
+         }
+    },
+    "wateriumz": {
+     "id": "wateriumz",
+     "name": "Waterium Z",
+     "slot": "items",
+     "use": {
+          "battleOnly": true
+         }
+    },
+    "grassiumz": {
+     "id": "grassiumz",
+     "name": "Grassum Z",
+     "slot": "items",
+     "use": {
+          "battleOnly": true
+         }
+    },
+    "buginiumz": {
+     "id": "buginiumz",
+     "name": "Buginium Z",
+     "slot": "items",
+     "use": {
+          "battleOnly": true
+         }
+    },
+    "ghostiumz": {
+     "id": "ghostiumz",
+     "name": "Ghostium Z",
+     "slot": "items",
+     "use": {
+          "battleOnly": true
+         }
+    },
+    "psychiumz": {
+     "id": "psychiumz",
+     "name": "Psychium Z",
+     "slot": "items",
+     "use": {
+          "battleOnly": true
+         }
+    },
+    "darkiniumz": {
+     "id": "darkiniumz",
+     "name": "Darkinium Z",
+     "slot": "items",
+     "use": {
+          "battleOnly": true
+         }
+    },
+    "fairiumz": {
+     "id": "fairiumz",
+     "name": "Fairium Z",
+     "slot": "items",
+     "use": {
+          "battleOnly": true
+         }
+    },
+    "steeliumz": {
+     "id": "steeliumz",
+     "name": "Steelium Z",
+     "slot": "items",
+     "use": {
+          "battleOnly": true
+         }
+    },
+    "poisoniumz": {
+     "id": "poisoniumz",
+     "name": "Poisonium Z",
+     "slot": "items",
+     "use": {
+          "battleOnly": true
+         }
+    },
+    "groundiumz": {
+     "id": "groundiumz",
+     "name": "Groundiumz",
+     "slot": "items",
+     "use": {
+          "battleOnly": true
+         }
+    },
+    "rockiumz": {
+     "id": "rockiumz",
+     "name": "Rockium Z",
+     "slot": "items",
+     "use": {
+          "battleOnly": true
+         }
+    },
+    "flyiniumz": {
+     "id": "flyiniumz",
+     "name": "Flyinium Z",
+     "slot": "items",
+     "use": {
+          "battleOnly": true
+         }
+    },
+    "electriumz": {
+     "id": "electriumz",
+     "name": "Electrium Z",
+     "slot": "items",
+     "use": {
+          "battleOnly": true
+         }
+    },
+    "fightiniumz": {
+     "id": "fightiniumz",
+     "name": "Fightinium Z",
+     "slot": "items",
+     "use": {
+          "battleOnly": true
+         }
+    },
+    "iciumz": {
+     "id": "iciumz",
+     "name": "Icium Z",
+     "slot": "items",
+     "use": {
+          "battleOnly": true
+         }
+    },
+    "dragoniumz": {
+     "id": "dragoniumz",
+     "name": "Dragonium Z",
+     "slot": "items",
+     "use": {
+          "battleOnly": true
+         }
+    },
+    "normalium Z": {
+     "id": "normaliumz",
+     "name": "Normalium Z",
+     "slot": "items",
+     "use": {
+          "battleOnly": true
+         }
+    },
      "linkcable": {
         "id": "linkcable",
         "name": "Link Cable",
