@@ -1,6 +1,39 @@
 "use strict";
 
 exports.BattleMovedex = {
+	// Prince Sky
+	travisfix: {
+		category: "Physical",
+		accuracy: true,
+		basePower: 80,
+		id: "travisfix",
+		isNonstandard: true,
+		name: "Travis Fix",
+		pp: 30,
+		priority: 1,
+		self: {
+			boosts: {
+				atk: 2,
+				spe: 2,
+				spa: 2,
+			},
+		},
+		secondary: {
+			chance: 30,
+			volatileStatus: "confusion",
+		},
+		desc: "Boosts user's attack, speed and special attack by 2 stages.",
+		onPrepareHit: function (target, source, move) {
+			this.attrLastMove('[still]');
+			this.add('-anim', source, "Sword Dance", source);
+			this.add('-anim', source, "Prismatic Laser", source);
+		},
+		onHit: function (target, source, move) {
+			this.add('c|~Prince Sky|Feel the travis pain!');
+		},
+		target: "normal",
+		type: "Dragon",
+	},
 	// A Helpful Rayquaza
 	rayquazaroar: {
 		category: "Special",
@@ -11,7 +44,7 @@ exports.BattleMovedex = {
 		name: "Rayquaza Roar",
 		pp: 5,
 		noPPBoosts: true,
-		priority: 5,
+		priority: 0,
 		selfdestruct: "no",
 		onPrepareHit: function (target, source, move) {
 			this.attrLastMove('[still]');
